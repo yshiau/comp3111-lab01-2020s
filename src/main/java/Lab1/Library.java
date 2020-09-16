@@ -5,7 +5,9 @@
 
 public class Library {
 	public static void main(String arg[]) {
-		System.out.println("When there is a file, commit and push.");
+		Library lib = new Library();
+		if(lib.someLibraryMethod())
+			System.out.println("When there is a file, commit and push.");
 	}
     public boolean someLibraryMethod() {
         return true;
